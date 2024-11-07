@@ -33,12 +33,12 @@ const ContactForm = ({ handleSubmit }) => {
     >
       <Form className={s.form}>
         <div className={s.labelBox}>
-          <label htmlFor={idName}>Username</label>
+          <label htmlFor={idName}>Name</label>
           <ErrorMessage name="name" component="span" />
         </div>
         <Field type="text" name="name" id={idName} className={s.input} />
         <div className={s.labelBox}>
-          <label htmlFor={idNumber}>Phone number</label>
+          <label htmlFor={idNumber}>Number</label>
           <ErrorMessage name="number" component="span" />
         </div>
         <Field type="text" name="number" id={idNumber} className={s.input} />
